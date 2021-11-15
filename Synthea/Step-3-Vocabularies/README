@@ -1,0 +1,11 @@
+DOWNLOAD THE VOCABULARIES
+Go to https://athena.ohdsi.org/vocabulary/ and sign in/up
+Then choose the vocabularies for the terminologies.
+Give a name to the downloaded zip file
+Unzip the file
+
+
+Note based on my (little) experience:
+The first time I didn't change the ticked choices and donwloaded the stuff which was about 4.5 GB unzipped. The insertion failed on the CONCEPT_RELATIONSHIP.csv that was above 2GB
+Then I unchecked some of the dictionaries and get around 2.7 GB of space occupied. The insertion succeeded.
+Probably, if needed, some insertion can be done later.

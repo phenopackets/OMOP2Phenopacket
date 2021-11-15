@@ -1,0 +1,15 @@
+POPULATES A POSTGRESQL DB WITH THE SYNTHEA DATA
+to run: Rscript loader_all_master.r
+
+Before running edit the script to provide the following information:
+-server hostnameoftheserver/synthea10 
+        if you used a docker image then find the name of the container with:
+        docker ps 
+        copy the db name (e.g. 6cd32142e88c) and then find the hostname:
+        docker inspect 6cd32142e88c | grep -i IPADD
+-pathToDriver  where you put the postgresql-42.3.1.jar driver. If you created a different Postgresql version then choose the correct driver for it
+https://jdbc.postgresql.org/download.html
+-user and password are the same you set in the DB i.e. POSTGRES_USER and POSTGRES_PASSWORD
+-syntheaFileLoc the path to the directory containing the synthetic data created with Synthea (step 1)
+-vocabFileLoc the path to the directory containing the vocabularies 
+

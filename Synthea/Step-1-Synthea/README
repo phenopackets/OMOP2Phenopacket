@@ -1,0 +1,9 @@
+CREATES SYNTHETIC PATIENT POPULATION
+Use example: java -jar synthea-with-dependencies.jar -p 1000 -c ./synthea.properties
+
+Notes
+-the results are located in the directory output/csv/
+-synthea-with-dependencies.jar can be downloaded from the following link: https://github.com/synthetichealth/synthea/releases/tag/v2.7.0
+-If you use the most recent version you have to cut some extra-columns
+-synthea.properties was originally located in the /pathtosynthea/synthea/src/main/resources/ part of the synthea github project. It has been edited to provide csv data.
+

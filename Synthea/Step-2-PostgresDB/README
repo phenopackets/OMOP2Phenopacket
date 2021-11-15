@@ -1,0 +1,6 @@
+To create a container install docker and docker-compose and then:
+docker-compose up
+login at localhost:8081
+create a server called whatever you like
+add a db called synthea10 and inside two schema: cdm_synthea10, native
+
